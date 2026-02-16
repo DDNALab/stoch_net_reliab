@@ -1,0 +1,44 @@
+{
+  "topology_family": "cyclic",
+  "n": 200,
+  "m": 400,
+  "s": 0,
+  "t": 199,
+  "base_p": 0.8,
+  "p_random_scheme": "lognormal_mult",
+  "p_lognormal_sigma": 0.15,
+  "p_min": 0.01,
+  "p_max": 0.99,
+  "p_summary": {
+    "mean": 0.7978111071681769,
+    "std": 0.11195354281929407,
+    "min": 0.5204923426912995,
+    "max": 0.99
+  },
+  "capacity_summary": {
+    "mean": 5.385,
+    "std": 0.7757415806826394,
+    "min": 5.0,
+    "max": 10.0
+  },
+  "capacity_LB": 5,
+  "capacity_UB": 10,
+  "STD_MEAN_RATIO": 0.1,
+  "cap_lognormal_sigma": 0.15,
+  "demand_d": 6.0,
+  "demand_frac_of_intact_maxflow": 0.75,
+  "intact_maxflow": 8.0,
+  "seed": 2,
+  "gen_time_sec": 9.106444120407104,
+  "gen_kwargs": {
+    "n": 200,
+    "m_target": 400,
+    "capacity_LB": 5,
+    "capacity_UB": 10,
+    "STD_MEAN_RATIO": 0.1,
+    "cap_lognormal_sigma": 0.15,
+    "K_paths": 2000,
+    "max_path_len": 94,
+    "capacity_method": "Cyclic: edge frequency in K shortest simple s\u2192t paths"
+  }
+}

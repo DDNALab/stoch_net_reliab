@@ -1,0 +1,45 @@
+{
+  "topology_family": "grid",
+  "n": 200,
+  "m": 742,
+  "s": 0,
+  "t": 199,
+  "base_p": 0.2,
+  "p_random_scheme": "lognormal_mult",
+  "p_lognormal_sigma": 0.15,
+  "p_min": 0.01,
+  "p_max": 0.99,
+  "p_summary": {
+    "mean": 0.20103924009012744,
+    "std": 0.030338439617479004,
+    "min": 0.12890573545275405,
+    "max": 0.31489842946747176
+  },
+  "capacity_summary": {
+    "mean": 5.363881401617251,
+    "std": 0.6943670366756729,
+    "min": 5.0,
+    "max": 10.0
+  },
+  "capacity_LB": 5,
+  "capacity_UB": 10,
+  "STD_MEAN_RATIO": 0.1,
+  "cap_lognormal_sigma": 0.15,
+  "demand_d": 10.5,
+  "demand_frac_of_intact_maxflow": 0.75,
+  "intact_maxflow": 14.0,
+  "seed": 1,
+  "gen_time_sec": 6.6371750831604,
+  "gen_kwargs": {
+    "n_requested": 200,
+    "n_effective": 200,
+    "m_effective": 742,
+    "capacity_LB": 5,
+    "capacity_UB": 10,
+    "STD_MEAN_RATIO": 0.1,
+    "cap_lognormal_sigma": 0.15,
+    "K_paths": 2000,
+    "max_path_len": 94,
+    "capacity_method": "Grid: edge frequency in K shortest simple s\u2192t paths (bidirected grid)"
+  }
+}

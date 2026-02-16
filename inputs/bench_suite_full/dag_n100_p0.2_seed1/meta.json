@@ -1,0 +1,42 @@
+{
+  "topology_family": "dag",
+  "n": 100,
+  "m": 200,
+  "s": 4,
+  "t": 92,
+  "base_p": 0.2,
+  "p_random_scheme": "lognormal_mult",
+  "p_lognormal_sigma": 0.15,
+  "p_min": 0.01,
+  "p_max": 0.99,
+  "p_summary": {
+    "mean": 0.20484040714812618,
+    "std": 0.031723653366782595,
+    "min": 0.14150428362520814,
+    "max": 0.3065818245972607
+  },
+  "capacity_summary": {
+    "mean": 5.44,
+    "std": 0.8039900496896711,
+    "min": 5.0,
+    "max": 10.0
+  },
+  "capacity_LB": 5,
+  "capacity_UB": 10,
+  "STD_MEAN_RATIO": 0.1,
+  "cap_lognormal_sigma": 0.15,
+  "demand_d": 3.75,
+  "demand_frac_of_intact_maxflow": 0.75,
+  "intact_maxflow": 5.0,
+  "seed": 1,
+  "gen_time_sec": 0.960331916809082,
+  "gen_kwargs": {
+    "n": 100,
+    "m_target": 200,
+    "capacity_LB": 5,
+    "capacity_UB": 10,
+    "STD_MEAN_RATIO": 0.1,
+    "cap_lognormal_sigma": 0.15,
+    "capacity_method": "DAG exact all simple paths across all (source,sink) pairs"
+  }
+}
